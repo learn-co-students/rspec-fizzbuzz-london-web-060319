@@ -1,19 +1,9 @@
 def fizzbuzz(int)
-if int % 3 == 0 
-  return "Fizz"
-end
-
-if int % 5 == 0 
-  return "Buzz"
-end
-
-if int % 15 == 0 
-  return "Fizzbuzz"
-else 
-  return "nil"
-end
-
-fizzbuzz(3)
-fizzbuzz(5)
-fizzbuzz(15)
-fizzbuzz(4)
+  if int % 3 == 0 && int % 5 == 0 
+    "FizzBuzz"
+    elsif int % 3 == 0 
+    "Fizz"
+    elsif int % 5 == 0 
+    "Buzz"
+  end
+end 
